@@ -3,4 +3,6 @@
 <label>First Name:</label>
 <%= text_field_tag :'student[:first_name]' %><br>
 <label>Last Name:</label>
-<%= text_field_tag :'student'
+<%= text_field_tag :'student[:last_name]' %><br>
+<%= submit_tag "Submit Student" %>
+<% end %>
